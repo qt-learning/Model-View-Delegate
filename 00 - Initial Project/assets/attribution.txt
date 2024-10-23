@@ -1,0 +1,63 @@
+Attributions from Unsplash
+--------------------------
+
+The images are provided from Unplash where all images can be downloaded and used for free,
+for commercial and non-commercial purposes without further permissions.
+
+0   Clear Sky               Noureddine Bouabdallah
+1   Mainly Clear            Oleh Holodyshyn
+2   Partly Cloudy           Julia Kim
+3   Overcast                Simon Berger
+
+45  Fog                     Artem Sapegin
+48  Thick Fog               Chris Lawton
+
+51  Drizzle Light           Justin Cron
+53  Drizzle Moderate        Erik Witsoe
+55  Drizzle Dense           Osman Rana
+56  Freezing Drizzle Light  Alexander Fastovets
+57  Freezing Drizzle Dense  Jan Huber
+
+61  Rain Slight             Anton Shakirov
+63  Rain Moderate           Sonika Agarwal
+65  Rain Heavy              Atilla Bingöl
+
+66 Freezing Rain Light      benjamin lehman
+67 Freezing Rain Heavy      Lola Guti
+
+71 Snaw fall slight         Nathan Fertig
+73 Snow fall moderate       Jasmin Schuler
+75 Snow fall heavy          Zac Durant
+77 Snow Grains              Annie Nyle
+
+80 Rain showers slight      Basil Smith
+81 Rain showers moderate    Nick Scheerbart
+82 Rain showers violent     Noam Cohen
+
+85 Snow showers slight      Adam Chang
+86 Snow showers heavy       Clay LeConey
+
+95 Thunderstorm slight      Michael D.
+96 Thunderstorn slight hail Christian Lue
+99 Thunderstorm heavy hail  Basil Smith
+
+
+SVG Weather Icons provided from the Material Icons Library.
+-----------------------------------------------------------
+
+https://fonts.google.com/icons?selected=Material+Symbols+Outlined:rainy_heavy:FILL@0;wght@400;GRAD@0;opsz@48&icon.query=weather&icon.size=48&icon.color=%23FFFFFF&icon.platform=web
+
+Color: 
+	#FFFFFF
+Pixel Size: 
+	48
+Axes: 
+
+	FILL: 0		// No fill
+	wght: 400	// Font Weight (normal)
+	GRAD: 0		// Grade (none)
+	opsz: 48	// Optical Size
+
+Weather data by Open-Meteo.com
+------------------------------
+https://open-meteo.com
