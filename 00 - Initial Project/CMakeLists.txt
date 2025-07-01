@@ -55,7 +55,6 @@ set(BIG_RESOURCE_FILES
     assets/icons/icon65.svg
     assets/icons/icon66.svg
     assets/icons/icon67.svg
-    assets/icons/icon70.svg
     assets/icons/icon73.svg
     assets/icons/icon75.svg
     assets/icons/icon77.svg
