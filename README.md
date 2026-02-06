@@ -1,6 +1,21 @@
-# Models Views and Delegates
+# Model View Delegate with QML
 
-Welcome to this course on Models, Views and Delegates.
+This is the repo for the Qt Academy on Models, Views and Delegates with QML.
+
+> Get the full learning experience by enrolling in the course on [Qt Academy](https://www.qt.io/academy/course-catalog?q#qml-for-beginners)
+
+> You can also find the course playlist on the [Qt YouTube channel](https://youtube.com/playlist?list=PLizsthdRd0YzothmZhq0Da43BBuQwYk5k&si=SBwmmHUu9uGCwH55)
+
+## 🎯 What You'll Learn
+
+- **Understand the relationship** between Models, Views, and Delegates in the Qt framework.
+- **Manage and display dynamic data** in a structured format using built-in models.
+- **Create custom views and delegates** to display complex data efficiently.
+- **Develop a real-world project** integrating live weather data into a user-friendly interface.
+
+**⭐ Skill Level:** Beginner
+
+**⏱️ Time to Complete:** 95 minutes
 
 ## Getting Started
 
@@ -20,8 +35,7 @@ Once you have Qt and an IDE installed, head over to [Qt Academy](academy.qt.io) 
 
 To run the project in Qt Creator, navigate to the folder `00-Initial Project` open the `CMakeLists.txt` file. Build and run the project in Qt Creator. The application will launch and you will see the application at that current stage.
 
-
-## Resouces
+## Resources
 
 Attributions for any assets used can be found in the `assets/attributtion.txt` file in the `00-Initial Project` folder.
 
