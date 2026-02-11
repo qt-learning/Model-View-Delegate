@@ -1,7 +1,7 @@
 # Copyright (C) 2026 Qt Group.
 # SPDX-License-Identifier: LicenseRef-Qt-Commercial OR GPL-3.0-only
 
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.21)
 
 project(ModelViewDelegates
     VERSION 0.1
@@ -11,11 +11,9 @@ project(ModelViewDelegates
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 6.5 REQUIRED COMPONENTS Quick)
+find_package(Qt6 6.8 REQUIRED COMPONENTS Quick)
 
-qt_standard_project_setup(REQUIRES 6.5)
-
-set(QT_QML_GENERATE_QMLLS_INI TRUE)
+qt_standard_project_setup(REQUIRES 6.8)
 
 qt_add_executable(appModelViewDelegate
     main.cpp
@@ -30,15 +28,12 @@ set_source_files_properties(
 qt_add_qml_module(appModelViewDelegate
     URI ModelViewDelegate
     VERSION 1.0
-
     QML_FILES
         Main.qml
         Requester.qml
         LiveLocationModel.qml
         LiveWeatherModel.qml
         OpenMeteo.qml
-    RESOURCES
-        # using BIG_RESOURCES
 )
 
 set(BIG_RESOURCE_FILES
@@ -107,9 +102,6 @@ qt_add_resources(appModelViewDelegate "appModelViewDelegate_large_resources"
     FILES ${BIG_RESOURCE_FILES}
 )
 
-# Workaround for QTBUG-127429
-source_group("Resources" FILES ${BIG_RESOURCE_FILES})
-
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.
@@ -131,9 +123,4 @@ install(TARGETS appModelViewDelegate
     BUNDLE DESTINATION .
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
-)
-
-add_custom_target(documents
-    SOURCES
-    DesignBuildNotes.txt
 )
