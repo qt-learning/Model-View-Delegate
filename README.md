@@ -37,10 +37,39 @@ To run the project in Qt Creator, navigate to the folder `00-Initial Project` op
 
 ## Resources
 
-Attributions for any assets used can be found in the `assets/attributtion.txt` file in the `00-Initial Project` folder.
+Attributions for any assets used can be found [below](#third-party-attributions).
 
 If you need additional help, the following resources may be helpful:
 
 - Qt Documentation: https://doc.qt.io
 - Qt Forum: https://forum.qt.io
 - Qt Academy: https://qt.io/academy
+
+## Licensing Information
+
+```
+Copyright (C) 2026 Qt Group.
+SPDX-License-Identifier: LicenseRef-Qt-Commercial OR GPL-3.0-only
+```
+
+This course explains the Model View Delegate pattern within QML and the Qt framework. This course will provide a hands-on understanding of the key elements of Models, Views, and Delegates and the interaction between Qt Types.
+
+### Terms and Conditions
+
+If you, your employer, or the legal entity you act on behalf of hold commercial license(s) with a Qt Group entity, this software package constitutes Pre-Release Code under the Qt License/Frame Agreement governing those licenses, and that agreement's terms and conditions govern your access and use of this software package.
+
+This software package may provide links or access to third party libraries or code (collectively "Third-Party Software") to implement various functions. Use or distribution of Third-Party Software is discretionary and in all respects subject to applicable license terms of applicable third-party right holders.
+
+### Third-Party Attributions
+
+#### Image Attributions
+
+The background images used in this project are sourced from [Unsplash](https://unsplash.com), Each image is credited to its respective Unsplash in `00 - Initial Project/assets/images/attributions.md`. These images are licensed under the [Unsplash License](https://unsplash.com/license).
+
+#### Weather Icons
+
+The weather icons used in this project are sources from the [Material Symbols library](https://fonts.google.com/icons) provided by Google. The icons are available under the [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+#### Weather Data
+
+The weather data used in this project is sourced from [Open-Meteo.com](https://open-meteo.com), which provides free weather data APIs for non-commercial use. The API data is offered under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
